@@ -1,0 +1,48 @@
+{
+  "name": "appoiint",
+  "version": "1.0.2",
+  "description": "Appoiint CLI — schedule meetings, create rooms, join video calls. Agent-first meeting platform.",
+  "bin": {
+    "apo": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "appoiint",
+    "appointment",
+    "booking",
+    "scheduling",
+    "meeting",
+    "video",
+    "agent",
+    "agent-first",
+    "cli",
+    "claude-code",
+    "cursor",
+    "cline",
+    "windsurf",
+    "aider",
+    "codex",
+    "openclaw",
+    "tts",
+    "stt"
+  ],
+  "author": "Joe Wee <joe@tyga.cloud>",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://appoiint.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jyswee/appoiint"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "terser": "^5.44.1"
+  }
+}
